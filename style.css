@@ -334,3 +334,50 @@ form input[type='submit']{
   color: #FFFFFF;
   cursor: pointer;
 }
+
+/* --------------footer section------------ */
+
+footer {
+  background-color: #070211;
+  color: #FFFFFF;
+  padding: 50px 5%;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 40px;
+}
+
+.address p:first-child, .contact p:first-child {
+  margin-bottom: 5px;
+}
+
+footer hr {
+  height: 0.3px;
+  border: none;
+  background-color: #434049;
+  margin: 30px 0;
+}
+
+.social {
+  text-align: center;
+}
+
+.social img {
+  margin: 0 5px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* done :-) */
