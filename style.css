@@ -13,3 +13,37 @@
 .inter-font {
   font-family: "Inter", sans-serif;
 }
+
+/* ------------header styles------------ */
+
+header {
+  width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('./images/Banner\ Image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  border-radius: 16px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-content h3 {
+  font-size: 32px;
+  color: white;
+  font-weight: 400;
+}
+
+.header-content h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+  margin-top: 16px;
+}
