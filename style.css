@@ -89,3 +89,135 @@ header {
   display: block;
   margin: 0 auto;
 }
+
+/* -----------welcome part style-------------- */
+
+.welcome-part {
+  display: flex;
+  align-items: center;
+  /* gap: 100px; */
+  padding: 50px 70px;
+  background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)),  url(./images/Vectorrr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+  border-radius: 16px;
+}
+
+.welcome-des {
+  max-width: 58%;
+}
+
+.welcome-des h2 {
+  font-size: 64px;
+  font-weight: 900;
+  color: #FFFFFF;
+  font-family: "Merriweather", serif;
+}
+
+.welcome-des p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.welcome-des button {
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: none;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+/* -----------date & time------------ */
+
+.date-time {
+  background: linear-gradient(#ffecec, #FFFFFF);
+  text-align: center;
+  padding: 80px 0;
+  border-radius: 10px;
+}
+
+.date-time p {
+  font-size: 32px;
+  font-weight: 600;
+  color: #070211;
+  margin-bottom: 12px;
+}
+
+.date-time p span {
+  color: #ff0000;
+}
+
+.date-time button {
+  padding: 16px 32px;
+  background-color: #ff0000;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* -------------------best offer section------------ */
+
+.best-offer {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-contet {
+  flex-basis: 33%;
+}
+
+.offer-info {
+  flex-basis: 25%;
+}
+
+.offer-contet h5 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ff0000;
+}
+
+.offer-contet h3 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+  margin: 10px 0;
+  font-family: "Merriweather", serif;
+}
+
+.offer-contet p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  line-height: 1.3;
+}
+
+.best-offer > img {
+  padding: 20px;
+  border: 13px solid #ff0000;
+  border-radius: 50%;
+  width: 360px;
+}
+
+.offer-info h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ff0000;
+}
+
+.offer-info p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  line-height: 1.3;
+  margin: 10px 0;
+}
